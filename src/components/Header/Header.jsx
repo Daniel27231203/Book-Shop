@@ -9,6 +9,7 @@ function Header({ setTakePass }) {
   let nav = useNavigate();
 
   return (
+
     <>
       <header>
         <div className="container">
@@ -47,6 +48,7 @@ function Header({ setTakePass }) {
               </div>
             </div>
           </div>
+
         </div>
       </header>
     </>
