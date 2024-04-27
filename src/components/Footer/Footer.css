@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(1, 0, 73, 1);
+    color: white;
+    width: 1440px;
+    height: 288px;
+}
+.footer-block1 h3{
+  padding: 20px 20px;
+}
+.footer-block2 h3{
+  padding: 0 0 50px 0;
+
+}
+.footer-block3 h3{
+  padding: 10px 10px;
+}
+.footer-block4 h3{
+  padding: 0 0 35px 0;
+}
+.footer-icons {
+  display: flex;
+  gap: 25px;
+  width: 24px;
+  height: 18px;
+
+}
+.footer-block4 p {
+  width: 300px;
+  height: 90px;
+}
