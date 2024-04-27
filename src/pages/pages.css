@@ -1,0 +1,103 @@
+/* home */
+#home {
+  background: red;
+  height: 100vh;
+}
+/* home */
+/* takePassword */
+#takePassword {
+  background: transparent;
+}
+.takePassword {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+.tekePassword-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  background: white;
+  position: relative;
+  border-radius: 15px;
+  gap: 30px;
+}
+.takePassword input {
+  width: 250px;
+  padding: 10px 7px;
+  border: none;
+}
+.takePassword button:last-child {
+  padding: 10px 50px;
+  background: darkblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+.x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+/* takePassword */
+/* admin */
+.admin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.admin-add {
+  display: flex;
+  gap: 30px;
+}
+.admin-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.admin-block input {
+  padding: 10px 7px;
+  outline: none;
+  border-radius: 7px;
+  border: 2px solid darkblue;
+}
+.admin-box {
+  display: flex;
+  gap: 10px;
+}
+.admin-block input:nth-child(3) {
+  height: 100px;
+  text-align: start;
+}
+.admin-block select {
+  border: 2px solid darkblue;
+  background: transparent;
+  border-radius: 7px;
+}
+
+.admin-block button {
+  padding: 10px 50px;
+  border: 4px solid darkblue;
+  border-radius: 7px;
+  color: darkblue;
+  background: transparent;
+  font-weight: 800;
+  font-size: 18px;
+}
+.admin-input-image {
+  width: 300px;
+  border-radius: 10px;
+  background: rgb(237, 231, 231);
+}
+/* admin */
