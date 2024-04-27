@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+header {
+  padding: 20px 0;
+  background: rgb(5, 5, 53);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: white;
+  font-family: "Space Grotesk";
+  cursor: pointer;
+}
+.header-search-block {
+  margin: 0 0 0 500px;
+  width: 250px;
+  position: relative;
+}
+.header-search-block input {
+  width: 250px;
+  padding: 10px 7px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+.header-search-block button {
+  position: absolute;
+  right: 10px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  color: grey;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.header-admin-block {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header-basket-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.header-admin-block button {
+  background: none;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.header-admin-block span {
+  color: white;
+}
+.header-admin-box {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
