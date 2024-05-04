@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Admin from "./pages/Admin";
 import Home from "./pages/Home";
 import { useState } from "react";
+import Footer from "./components/Footer/Footer"
 
 
 function App() {
@@ -13,16 +14,16 @@ function App() {
   return (
     <div className="App">
 
-      <Footer/>
-
       <Header setTakePass={setTakePass} takePass={takePass} />
+
       <Routes>
         <Route
           path="/Home"
           element={<Home takePass={takePass} setTakePass={setTakePass} />}
-        />
+          />
         <Route path="/Admin" element={<Admin />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
