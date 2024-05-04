@@ -1,7 +1,20 @@
 /* home */
+.homeImage img {
+  width: 100%;
+  height: 500px;
+}
 #home {
-  background: red;
-  height: 100vh;
+  background: rgb(111, 248, 89);
+  background: linear-gradient(
+    90deg,
+    rgba(111, 248, 89, 1) 16%,
+    rgba(235, 167, 125, 1) 29%,
+    rgba(143, 223, 159, 1) 41%,
+    rgba(158, 162, 219, 1) 45%,
+    rgba(186, 168, 199, 1) 66%,
+    rgba(176, 214, 183, 1) 74%,
+    rgba(196, 209, 198, 1) 94%
+  );
 }
 /* home */
 /* takePassword */
@@ -25,6 +38,7 @@
   position: relative;
   border-radius: 15px;
   gap: 30px;
+  border: 2px solid grey;
 }
 .takePassword input {
   width: 250px;
@@ -101,3 +115,172 @@
   background: rgb(237, 231, 231);
 }
 /* admin */
+
+/* HOME CATEGORY */
+#homeCategory {
+  padding: 40px 0;
+}
+.homeCategory h1 {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 1000;
+}
+.home-Category-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.home-Category-box a {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.home-Category-box div {
+  width: 250px;
+  padding: 140px 0 20px 10px;
+  text-align: start;
+  border-radius: 15px;
+}
+.Category-Detective {
+  background: url("https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/d1/55/a2/d155a21b-eee2-4570-894a-26d6bfdf9b71/source/256x256bb.jpg"),
+    center/cover;
+}
+.Category-Fantastic {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt7MIJKxb2N8ilvfoUMRouiboXEWg_zJyq3KvQwvyJBw&s"),
+    center/cover;
+}
+.Category-Pric {
+  background: url("https://www.visitdubai.com/-/media/gathercontent/poi/a/arabian-adventures/fallback-image/arabian-adventures-2.jpg?&cw=256&ch=256");
+}
+.Category-Nayk {
+  background: url("https://masterpiecer-images.s3.yandex.net/3fe15123b70e11ee8dbca67ef26bc006:2");
+}
+.Category-Psiholog {
+  background: url("https://avatars.dzeninfra.ru/get-zen_doc/1658056/pub_64c12c4f3fc50007bdd187a7_64c12c78bcad0b6088529ae2/scale_1200");
+}
+/* HOME CATEGORY */
+
+/* HOME CARDS */
+#homeCards {
+  padding: 40px 0;
+}
+.homeCards-cards {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  gap: 30px;
+  padding: 20px 0;
+}
+.homeCards-cards-card img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+.homeCards-cards-card-basket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.homeCards-cards-card-basket button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.homeCards-cards-card h2 {
+  font-size: 20px;
+  color: gray;
+}
+.homeCards-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.homeCards-title select {
+  padding: 5px 10px;
+  border: 1px solid gray;
+  outline: 1px solid gray;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 20px;
+}
+/* HOME CARDS */
+/* DETECTIVE_BLOCK */
+#detectiveCategory {
+  padding: 20px 0;
+}
+.detectiveCategory h1 {
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 1000;
+}
+.detective-Category-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 20px 0;
+}
+.detective-Category-box a {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.detective-Category-box div {
+  width: 300px;
+  padding: 25px 10px;
+  text-align: start;
+  border-radius: 15px;
+}
+.detective-block .detective-h2 span {
+  color: grey;
+  font-size: 18px;
+}
+.detective-block-cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+  /* justify-content: center; */
+}
+
+.detective-block-card img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+.detective-block-card-basket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.detective-block-card-basket button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.detective-block-card h2 {
+  font-size: 20px;
+  color: gray;
+}
+.detective-text-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.detective-block select {
+  padding: 5px 10px;
+  border: 1px solid gray;
+  outline: 1px solid gray;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 20px;
+}
+/* DETECTIVE_BLOCK */
+/*  */

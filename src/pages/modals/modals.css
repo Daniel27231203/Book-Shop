@@ -1,0 +1,190 @@
+/* Search */
+#search {
+  padding: 40px 0;
+  background: rgb(111, 248, 89);
+  background: linear-gradient(
+    90deg,
+    rgba(111, 248, 89, 1) 16%,
+    rgba(235, 167, 125, 1) 29%,
+    rgba(143, 223, 159, 1) 41%,
+    rgba(158, 162, 219, 1) 45%,
+    rgba(186, 168, 199, 1) 66%,
+    rgba(176, 214, 183, 1) 74%,
+    rgba(196, 209, 198, 1) 94%
+  );
+}
+.search {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.search-boxes img {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+.search-boxes-box-basket {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.search-boxes-box-basket button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.search-boxes h2 {
+  font-size: 20px;
+  color: gray;
+}
+/* Search */
+/* Basket */
+
+#basket {
+  padding: 40px 0;
+}
+.basket h4 span {
+  color: gray;
+  font-size: 20px;
+}
+.basket h4 {
+  font-size: 25px;
+}
+.basket-block {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.information-for-people {
+  width: 288px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.basket-block h1 {
+  color: rgb(6, 6, 57);
+}
+.information-for-people-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.information-for-people input {
+  width: 288px;
+  padding: 14px 7px;
+  outline: none;
+  border: 2px solid rgb(6, 6, 57);
+  border-radius: 10px;
+  color: rgb(6, 6, 57);
+}
+
+.information-for-people-box select {
+  padding: 14px 0;
+  border-radius: 10px;
+  background: transparent;
+}
+.information-for-people-box button {
+  padding: 15px 0;
+  border-radius: 0 0 10px 10px;
+  outline: none;
+  border: none;
+  background: rgb(6, 6, 57);
+  color: white;
+  font-size: 20px;
+}
+.delivery {
+  width: 288px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.delivery-first-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.delivery-first-box p {
+  font-size: 18px;
+}
+.delivery-first-box select {
+  padding: 14px 0;
+  border-radius: 10px;
+  background: transparent;
+}
+.delivery-first-box input {
+  height: 120px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.delivery-second-box {
+  background: rgb(6, 6, 57);
+  color: white;
+  padding: 20px;
+}
+.delivery-second-box-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.delivery-second-box-title h3 {
+  font-size: 14px;
+  font-weight: 100;
+}
+.delivery-second-box-title h2 {
+  font-size: 18px;
+  font-weight: 900;
+}
+.delivery-second-box h3 {
+  text-align: center;
+  font-size: 16px;
+}
+.to-basket-cards {
+  width: 428px;
+  height: 500px;
+  display: flex;
+  /* align-items: center; */
+  gap: 30px;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.to-basket-card {
+  display: flex;
+  gap: 20px;
+}
+.to-basket-card img {
+  width: 150px;
+  border-radius: 10px;
+}
+.to-basket-card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.to-basket-title-delete-block {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.to-basket-card-title-block-btn {
+  display: flex;
+}
+.to-basket-card-title-block-btn button {
+  padding: 3px 7px;
+  background: rgb(6, 6, 57);
+  color: white;
+}
+.to-basket-card-title-block-btn span {
+  padding: 3px 7px;
+  border-top: 1px solid rgb(6, 6, 57);
+  border-bottom: 1px solid rgb(6, 6, 57);
+}
+/* Basket */

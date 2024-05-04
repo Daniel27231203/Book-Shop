@@ -1,3 +1,84 @@
 {
-  "product": []
+  "product": [
+    {
+      "id": "2fa4",
+      "image": "https://masterpiecer-images.s3.yandex.net/3fe15123b70e11ee8dbca67ef26bc006:2",
+      "name": "Daniel",
+      "price": "1200",
+      "des": "wergtrhyu 23werty asdfghtge sfghhfd",
+      "category": "Detectiv"
+    },
+    {
+      "id": "b296",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIfREZIatRV7An92ENrui8FPExHyaJflVxWdoaJtq7VQ&s",
+      "name": "Detective",
+      "price": "1500",
+      "des": "qwertyu ewrtyuerty weertyu",
+      "category": "Detectiv"
+    },
+    {
+      "id": "92e8",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWNGUf_xnJBF9KyJsVFHe6Y9zrsaWSDIwNJHNYKTFwg&s",
+      "name": "Nayka",
+      "price": "200",
+      "des": "dwertg wertgh qweretrthg werth",
+      "category": "Nauc"
+    },
+    {
+      "id": "583d",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWNGUf_xnJBF9KyJsVFHe6Y9zrsaWSDIwNJHNYKTFwg&s",
+      "name": "Detective1",
+      "price": "400",
+      "des": "deafqefgwrgvs",
+      "category": "Detectiv"
+    },
+    {
+      "id": "6db9",
+      "image": "https://media.gq.com/photos/5ad64204c8be07604e8b5f2f/16:9/w_2560%2Cc_limit/21-books-GQ-April-2018-041718-3x2.jpg",
+      "name": "Advantive",
+      "price": "2500",
+      "des": "qwertgs sdfgg wertgff wertgf sacsdfre asfewe",
+      "category": "Detectiv"
+    },
+    {
+      "id": "e118",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/pile-of-books-with-pages-open-by-wind-royalty-free-image-1600785994.jpg?crop=0.79555xw:1xh;center,top&resize=2048:*",
+      "name": "Тонкое искуство обмана",
+      "price": "4000",
+      "des": "цукеноеркеукцуй цукенроерапваы цфывыавпкап цукекпрепаа цукекрепап укпук ",
+      "category": "Psiholog"
+    },
+    {
+      "id": "4b8f",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Fan1",
+      "price": "400",
+      "des": "qweretrthqwetrytj",
+      "category": "Fantactic"
+    },
+    {
+      "id": "cc62",
+      "image": "https://dcist.com/wp-content/uploads/sites/3/2022/12/IMG_7380-1500x1125.jpg",
+      "name": "Artur",
+      "price": "2000",
+      "des": "wertgh 2wertg 2retgfd 23ertgffds 2erdsx ",
+      "category": "Nauc"
+    },
+    {
+      "id": "c275",
+      "image": "https://teaspoonofadventure.com/wp-content/uploads/2023/04/38-best-travel-books-pin2.jpg",
+      "name": "my first place",
+      "price": "500",
+      "des": "qwertyjj qwerty qwertyh wretg sdfvbnj dfb nredg  sedfg wsdf g",
+      "category": "Pric"
+    },
+    {
+      "id": "a5f6",
+      "image": "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630",
+      "name": "Place",
+      "price": "1000",
+      "des": "werty ertyhjk wertyhj wretrhgyjn wrethg",
+      "category": "Nauc"
+    }
+  ]
 }

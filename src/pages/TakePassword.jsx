@@ -32,7 +32,7 @@ function TakePassword({ setTakePass }) {
             <input
               style={{ outline: inputStyle }}
               onChange={(e) => setPasswordValue(e.target.value)}
-              type="text"
+              type="password"
               placeholder="PASSWORD"
             />
             <button onClick={getAdmin}>sing in</button>
